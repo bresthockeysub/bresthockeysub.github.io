@@ -1,0 +1,40 @@
+---
+label: landing-page
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+- type: text
+  label: Hero Heading
+  name: heading
+  default: CSB
+  hidden: false
+- type: text
+  name: sub_heading
+  label: Hero Sub heading
+  default: Clube de Hockey Subaquatique
+  hidden: false
+- type: file
+  name: banner_image
+  label: Hero Image
+  description: 'Dimensions: 1200px by 580px'
+  config:
+    maxSize: '2'
+- type: boolean
+  name: show_news
+  label: Show News?
+  description: Enables a news section with a twitter feed & latest posts
+  default: false
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: home
+pages:
+- index.md
