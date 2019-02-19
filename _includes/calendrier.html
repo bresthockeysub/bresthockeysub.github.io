@@ -1,0 +1,7 @@
+{% if site.data.information %}
+{% assign info = site.data.information %}
+{% if info.googlecal %}
+<div class="container pure-g">
+	<iframe src="{{info.googlecal}}" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+{% endif %}
