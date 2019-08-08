@@ -1,5 +1,8 @@
 ---
 navigation:
+- url: "/News"
+  weight: 5
+  title: News
 - url: https://docs.google.com/forms/d/e/1FAIpQLSeGxHJSikeCkOHsSKIJX7r_2KD_exZtf5lzO1N2i5nDd-GXCg/viewform
   weight: 2
   title: Inscription
