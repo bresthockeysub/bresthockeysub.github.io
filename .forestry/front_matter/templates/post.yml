@@ -39,4 +39,5 @@ fields:
   hidden: true
   default: post
 pages:
+- post.md
 - le-hockey-subaquatique.md
