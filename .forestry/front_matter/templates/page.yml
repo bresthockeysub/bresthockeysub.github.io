@@ -7,3 +7,5 @@ fields:
   label: Titre
   config:
     required: true
+pages:
+- pages_news_iframeFB.md
